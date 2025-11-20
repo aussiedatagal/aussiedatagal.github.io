@@ -1,0 +1,226 @@
+:root {
+  --wattle: #f4d03f;
+  --waratah: #c41e3a;
+  --eucalyptus: #6b8e5a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Waiting for the Sunrise', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c2e24;
+  line-height: 1.7;
+  background: #f8f7f4;
+  background-image: 
+    radial-gradient(circle at 20% 40%, rgba(244, 208, 63, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 80% 60%, rgba(196, 30, 58, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 50% 20%, rgba(107, 142, 90, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 30% 80%, rgba(107, 142, 90, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(244, 208, 63, 0.05) 0%, transparent 50%),
+    linear-gradient(45deg, rgba(107, 142, 90, 0.04) 0%, transparent 50%),
+    linear-gradient(225deg, rgba(196, 30, 58, 0.03) 0%, transparent 50%);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(244, 208, 63, 0.02) 2px,
+      rgba(244, 208, 63, 0.02) 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(107, 142, 90, 0.018) 2px,
+      rgba(107, 142, 90, 0.018) 4px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 3px,
+      rgba(196, 30, 58, 0.012) 3px,
+      rgba(196, 30, 58, 0.012) 6px
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--wattle), var(--waratah));
+  border-radius: 2px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(135deg, var(--wattle) 0%, var(--waratah) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #504838;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  padding: 0 0.5rem;
+}
+
+.projects {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  border-top: 2px solid #e0d8c8;
+  color: #6b6d5e;
+  font-size: 0.85rem;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--waratah), transparent);
+}
+
+.footer-contact {
+  margin-top: 1rem;
+}
+
+.footer-contact a {
+  color: var(--waratah);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-contact a:hover {
+  color: var(--wattle);
+  text-decoration: underline;
+}
+
+@media (min-width: 480px) {
+  .App {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .header {
+    margin-bottom: 4rem;
+  }
+  
+  .header::before {
+    top: -2rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+  
+  .project-card {
+    padding: 1.75rem;
+  }
+  
+  .project-card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding: 4rem 2.5rem;
+  }
+  
+  .header {
+    margin-bottom: 5rem;
+  }
+  
+  .header h1 {
+    font-size: 3.5rem;
+  }
+  
+  .intro {
+    font-size: 1.15rem;
+  }
+  
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .project-card {
+    padding: 2rem;
+  }
+  
+  .project-card h2 {
+    font-size: 1.6rem;
+  }
+  
+  .footer {
+    padding-top: 3rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+  }
+}
+
