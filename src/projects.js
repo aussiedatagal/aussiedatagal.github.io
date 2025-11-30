@@ -7,13 +7,6 @@ export const projects = [
     repoUrl: 'https://github.com/aussiedatagal/nsw-food-penalty-map'
   },
   {
-    id: 'nsw-rent-bond-refunds',
-    title: 'NSW Rental Bond Outcomes',
-    description: 'Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.',
-    liveUrl: 'https://aussiedatagal.github.io/nsw-rent-bond-refunds/',
-    repoUrl: 'https://github.com/aussiedatagal/nsw-rent-bond-refunds'
-  },
-  {
     id: 'childcare-quality-ratings',
     title: 'Childcare Quality Ratings',
     description: 'Explore quality standards ratings for childcare services across Australia using data from ACECQA.',
@@ -26,6 +19,13 @@ export const projects = [
     description: 'Analysis of housing affordability trends and patterns across NSW.',
     liveUrl: 'https://aussiedatagal.github.io/nsw-housing-affordability/',
     repoUrl: 'https://github.com/aussiedatagal/nsw-housing-affordability'
+  },
+  {
+    id: 'nsw-rent-bond-refunds',
+    title: 'NSW Rental Bond Outcomes',
+    description: 'Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.',
+    liveUrl: 'https://aussiedatagal.github.io/nsw-rent-bond-refunds/',
+    repoUrl: 'https://github.com/aussiedatagal/nsw-rent-bond-refunds'
   },
   {
     id: 'nsw-rent-vs-mortgage',
