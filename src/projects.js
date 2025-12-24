@@ -33,6 +33,13 @@ export const projects = [
     description: 'Comparison of rental costs versus mortgage payments across NSW postcodes.',
     liveUrl: 'https://aussiedatagal.github.io/nsw-rent-vs-mortgage/',
     repoUrl: 'https://github.com/aussiedatagal/nsw-rent-vs-mortgage'
+  },
+  {
+    id: 'child-growth-calculator',
+    title: 'Child Growth Calculator',
+    description: 'Calculate and track child growth percentiles based on WHO growth standards.',
+    liveUrl: 'https://aussiedatagal.github.io/child-growth-calculator/',
+    repoUrl: 'https://github.com/aussiedatagal/child-growth-calculator'
   }
 ];
 
