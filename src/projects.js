@@ -1,5 +1,12 @@
 export const projects = [
   {
+    id: 'tourle',
+    title: 'Tourle',
+    description: 'A daily traveling salesman puzzle game.',
+    liveUrl: 'https://aussiedatagal.github.io/tourle/',
+    repoUrl: 'https://github.com/aussiedatagal/tourle'
+  },
+  {
     id: 'nsw-food-penalty-map',
     title: 'NSW Food Penalty Notices',
     description: 'Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.',

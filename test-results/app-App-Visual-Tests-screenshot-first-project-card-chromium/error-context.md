@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "aussiedatagal" [level=1] [ref=e5]
+    - paragraph [ref=e6]: A collection of projects I've worked on in my spare time. Mostly things I found interesting or wanted to explore. Some might be useful, others are just for fun.
+  - main [ref=e7]:
+    - article [ref=e8]:
+      - link "Tourle" [ref=e9] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/tourle/
+        - heading "Tourle" [level=2] [ref=e11]
+      - paragraph [ref=e12]: Interactive data visualization project exploring patterns and insights.
+      - link "Source code" [ref=e14] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/tourle
+    - article [ref=e15]:
+      - link "NSW Food Penalty Notices" [ref=e16] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-food-penalty-map/
+        - heading "NSW Food Penalty Notices" [level=2] [ref=e18]
+      - paragraph [ref=e19]: Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.
+      - link "Source code" [ref=e21] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-food-penalty-map
+    - article [ref=e22]:
+      - link "Childcare Quality Ratings" [ref=e23] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/childcare-quality-ratings/
+        - heading "Childcare Quality Ratings" [level=2] [ref=e25]
+      - paragraph [ref=e26]: Explore quality standards ratings for childcare services across Australia using data from ACECQA.
+      - link "Source code" [ref=e28] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/childcare-quality-ratings
+    - article [ref=e29]:
+      - link "NSW Housing Affordability" [ref=e30] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-housing-affordability/
+        - heading "NSW Housing Affordability" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Analysis of housing affordability trends and patterns across NSW.
+      - link "Source code" [ref=e35] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-housing-affordability
+    - article [ref=e36]:
+      - link "NSW Rental Bond Outcomes" [ref=e37] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-rent-bond-refunds/
+        - heading "NSW Rental Bond Outcomes" [level=2] [ref=e39]
+      - paragraph [ref=e40]: Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.
+      - link "Source code" [ref=e42] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-rent-bond-refunds
+    - article [ref=e43]:
+      - link "Paying off your landlord's house (NSW Map)" [ref=e44] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-rent-vs-mortgage/
+        - heading "Paying off your landlord's house (NSW Map)" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Comparison of rental costs versus mortgage payments across NSW postcodes.
+      - link "Source code" [ref=e50] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-rent-vs-mortgage
+    - article [ref=e51]:
+      - link "Child Growth Calculator" [ref=e52] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/child-growth-calculator/
+        - heading "Child Growth Calculator" [level=2] [ref=e54]
+      - paragraph [ref=e55]: Calculate and track child growth percentiles based on WHO growth standards.
+      - link "Source code" [ref=e57] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/child-growth-calculator
+  - contentinfo [ref=e58]:
+    - paragraph [ref=e59]: All projects are open source. Data sources and licenses are noted in each one.
+    - paragraph [ref=e60]:
+      - link "Contact me" [ref=e61] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/aussiedatagal.github.io/issues
+      - text: •
+      - link "Email" [ref=e62] [cursor=pointer]:
+        - /url: mailto:tkl9tlfno@mozmail.com
+```

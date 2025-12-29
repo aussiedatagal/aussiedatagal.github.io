@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "aussiedatagal" [level=1] [ref=e5]
+    - paragraph [ref=e6]: A collection of projects I've worked on in my spare time. Mostly things I found interesting or wanted to explore. Some might be useful, others are just for fun.
+  - main [ref=e7]:
+    - article [ref=e8]:
+      - link "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game" [ref=e9] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/tourle/
+        - img "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game" [ref=e11]
+        - heading "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game" [level=2] [ref=e13]
+      - paragraph [ref=e14]: Interactive data visualization project exploring patterns and insights.
+      - link "Source code" [ref=e16] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/tourle
+    - article [ref=e17]:
+      - link "NSW Food Penalty Notices" [ref=e18] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-food-penalty-map/
+        - heading "NSW Food Penalty Notices" [level=2] [ref=e20]
+      - paragraph [ref=e21]: Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.
+      - link "Source code" [ref=e23] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-food-penalty-map
+    - article [ref=e24]:
+      - link "Childcare Quality Ratings Map (Australia) Childcare Quality Ratings Map (Australia)" [ref=e25] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/childcare-quality-ratings/
+        - img "Childcare Quality Ratings Map (Australia)" [ref=e27]
+        - heading "Childcare Quality Ratings Map (Australia)" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Explore quality standards ratings for childcare services across Australia using data from ACECQA.
+      - link "Source code" [ref=e32] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/childcare-quality-ratings
+    - article [ref=e33]:
+      - link "NSW Housing Affordability Map NSW Housing Affordability Map" [ref=e34] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-housing-affordability/
+        - img "NSW Housing Affordability Map" [ref=e36]
+        - heading "NSW Housing Affordability Map" [level=2] [ref=e38]
+      - paragraph [ref=e39]: Analysis of housing affordability trends and patterns across NSW.
+      - link "Source code" [ref=e41] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-housing-affordability
+    - article [ref=e42]:
+      - link "NSW Rental Bond Outcomes" [ref=e43] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-rent-bond-refunds/
+        - heading "NSW Rental Bond Outcomes" [level=2] [ref=e45]
+      - paragraph [ref=e46]: Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.
+      - link "Source code" [ref=e48] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-rent-bond-refunds
+    - article [ref=e49]:
+      - link "NSW Rent vs Mortgage" [ref=e50] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/nsw-rent-vs-mortgage/
+        - heading "NSW Rent vs Mortgage" [level=2] [ref=e52]
+      - paragraph [ref=e53]: Comparison of rental costs versus mortgage payments across NSW postcodes.
+      - link "Source code" [ref=e55] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/nsw-rent-vs-mortgage
+    - article [ref=e56]:
+      - link "Child Growth Calculator" [ref=e57] [cursor=pointer]:
+        - /url: https://aussiedatagal.github.io/child-growth-calculator/
+        - heading "Child Growth Calculator" [level=2] [ref=e59]
+      - paragraph [ref=e60]: Calculate and track child growth percentiles based on WHO growth standards.
+      - link "Source code" [ref=e62] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/child-growth-calculator
+  - contentinfo [ref=e63]:
+    - paragraph [ref=e64]: All projects are open source. Data sources and licenses are noted in each one.
+    - paragraph [ref=e65]:
+      - link "Contact me" [ref=e66] [cursor=pointer]:
+        - /url: https://github.com/aussiedatagal/aussiedatagal.github.io/issues
+      - text: •
+      - link "Email" [ref=e67] [cursor=pointer]:
+        - /url: mailto:tkl9tlfno@mozmail.com
+```
