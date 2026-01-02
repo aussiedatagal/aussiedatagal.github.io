@@ -1,5 +1,12 @@
 export const projects = [
   {
+    id: 'brick',
+    title: 'Brick',
+    description: 'A daily LEGO set puzzle game where players guess the LEGO set based on a series of images.',
+    liveUrl: 'https://aussiedatagal.github.io/brick/',
+    repoUrl: 'https://github.com/aussiedatagal/brick'
+  },
+  {
     id: 'tourle',
     title: 'Tourle',
     description: 'A daily traveling salesman puzzle game.',
