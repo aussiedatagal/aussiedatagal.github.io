@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 'return-to-work-cost',
     title: 'Return to Work Cost (A Childcare Subsidy Calculator)',
-    description: 'Sydney mums returning to work full time take home less than minimum wage when you account for childcare costs',
+    description: 'Sydney parents earn less money working full time than part time when you account for childcare costs',
     liveUrl: 'https://aussiedatagal.github.io/return-to-work-cost/',
     repoUrl: 'https://github.com/aussiedatagal/return-to-work-cost',
     previewImage: '/assets/previews/return-to-work-cost-preview.png',
