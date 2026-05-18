@@ -3,29 +3,88 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A collection of side projects and experiments" />
-    
+    <meta name="description" content="Interactive maps and data tools about Sydney, NSW housing, childcare costs, food safety, and more. Open-source side projects." />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://aussiedatagal.github.io/" />
-    <meta property="og:title" content="aussiedatagal - A collection of side projects and experiments" />
-    <meta property="og:description" content="A collection of projects I've worked on in my spare time. Mostly things I found interesting or wanted to explore. Some might be useful, others are just for fun." />
+    <meta property="og:title" content="aussiedatagal — Maps and data projects" />
+    <meta property="og:description" content="Interactive maps and data tools about Sydney, NSW housing, childcare costs, food safety, and more. Open-source side projects." />
     <meta property="og:image" content="https://aussiedatagal.github.io/assets/eucalyptus-pattern.png" />
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://aussiedatagal.github.io/" />
-    <meta name="twitter:title" content="aussiedatagal - A collection of side projects and experiments" />
-    <meta name="twitter:description" content="A collection of projects I've worked on in my spare time. Mostly things I found interesting or wanted to explore. Some might be useful, others are just for fun." />
+    <meta name="twitter:title" content="aussiedatagal — Maps and data projects" />
+    <meta name="twitter:description" content="Interactive maps and data tools about Sydney, NSW housing, childcare costs, food safety, and more. Open-source side projects." />
     <meta name="twitter:image" content="https://aussiedatagal.github.io/assets/eucalyptus-pattern.png" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
-    <title>aussiedatagal</title>
+    <title>aussiedatagal — Maps and data projects</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .intro { color: #555; margin-bottom: 2rem; }
+        article { margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 1.5rem; }
+        h2 { font-size: 1.1rem; margin-bottom: 0.4rem; }
+        p { color: #444; margin-bottom: 0.5rem; }
+        a { color: #1a73e8; }
+      </style>
+      <h1>aussiedatagal</h1>
+      <p class="intro">A collection of projects I've worked on in my spare time. Mostly things I found interesting or wanted to explore. Some might be useful, others are just for fun.</p>
+      <main>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/return-to-work-cost/">Return to Work Cost (A Childcare Subsidy Calculator)</a></h2>
+          <p>Sydney parents earn less money working full time than part time when you account for childcare costs</p>
+          <a href="https://github.com/aussiedatagal/return-to-work-cost">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/nsw-food-penalty-map/">NSW Food Penalty Notices</a></h2>
+          <p>Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.</p>
+          <a href="https://github.com/aussiedatagal/nsw-food-penalty-map">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/childcare-quality-ratings/">Childcare Quality Ratings</a></h2>
+          <p>Explore quality standards ratings for childcare services across Australia using data from ACECQA.</p>
+          <a href="https://github.com/aussiedatagal/childcare-quality-ratings">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/nsw-rent-vs-mortgage/">NSW Rent vs Mortgage</a></h2>
+          <p>Comparison of rental costs versus mortgage payments across NSW postcodes.</p>
+          <a href="https://github.com/aussiedatagal/nsw-rent-vs-mortgage">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/child-growth-calculator/">Child Growth Calculator</a></h2>
+          <p>Calculate and track child growth percentiles based on WHO growth standards.</p>
+          <a href="https://github.com/aussiedatagal/child-growth-calculator">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/nsw-housing-affordability/">NSW Housing Affordability</a></h2>
+          <p>Analysis of housing affordability trends and patterns across NSW.</p>
+          <a href="https://github.com/aussiedatagal/nsw-housing-affordability">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/nsw-rent-bond-refunds/">NSW Rental Bond Outcomes</a></h2>
+          <p>Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.</p>
+          <a href="https://github.com/aussiedatagal/nsw-rent-bond-refunds">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/tourle/">Tourle</a></h2>
+          <p>A daily traveling salesman puzzle game.</p>
+          <a href="https://github.com/aussiedatagal/tourle">Source code</a>
+        </article>
+        <article>
+          <h2><a href="https://aussiedatagal.github.io/brick/">Brick</a></h2>
+          <p>A daily LEGO set puzzle game where players guess the LEGO set based on a series of images.</p>
+          <a href="https://github.com/aussiedatagal/brick">Source code</a>
+        </article>
+      </main>
+    </noscript>
     <div id="root"></div>
     <script src="https://cdn.counter.dev/script.js" data-id="2fd9f514-57b3-4a7e-bcab-1f565aff04d0" data-utcoffset="10"></script>
     <script>
