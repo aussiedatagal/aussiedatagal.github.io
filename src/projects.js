@@ -36,6 +36,15 @@ export const projects = [
     previewTitle: 'Paying off your landlord\'s house (NSW)'
   },
   {
+    id: 'invest-vs-offset',
+    title: 'Invest vs Offset',
+    description: 'Should spare cash go into shares or your mortgage offset account? Model your net worth over time with your own mortgage, tax and contribution assumptions.',
+    liveUrl: 'https://aussiedatagal.github.io/invest-vs-offset/',
+    repoUrl: 'https://github.com/aussiedatagal/invest-vs-offset',
+    previewImage: '/assets/previews/invest-vs-offset-preview.png',
+    previewTitle: 'Invest vs Offset Calculator'
+  },
+  {
     id: 'child-growth-calculator',
     title: 'Child Growth Calculator',
     description: 'Calculate and track child growth percentiles based on WHO growth standards.',
@@ -43,6 +52,15 @@ export const projects = [
     repoUrl: 'https://github.com/aussiedatagal/child-growth-calculator',
     previewImage: '/assets/previews/child-growth-calculator-preview.png',
     previewTitle: 'Growth Chart Calculator - WHO & CDC Child Growth Standards Tool'
+  },
+  {
+    id: 'breastfeeding-issues-flowchart',
+    title: 'Breastfeeding Difficulty Screening',
+    description: 'A few yes/no questions about what is going on with breastfeeding. Your answers build a summary to take to your midwife, doctor or lactation consultant.',
+    liveUrl: 'https://aussiedatagal.github.io/breastfeeding-issues-flowchart/',
+    repoUrl: 'https://github.com/aussiedatagal/breastfeeding-issues-flowchart',
+    previewImage: '/assets/previews/breastfeeding-issues-flowchart-preview.png',
+    previewTitle: 'Breastfeeding Difficulty Screening'
   },
   {
     id: 'nsw-housing-affordability',
@@ -61,6 +79,15 @@ export const projects = [
     repoUrl: 'https://github.com/aussiedatagal/nsw-rent-bond-refunds',
     previewImage: '/assets/previews/nsw-rent-bond-refunds-preview.png',
     previewTitle: 'NSW Rental Bond Refunds — 2024'
+  },
+  {
+    id: 'energy',
+    title: 'Energy in Perspective',
+    description: 'Is AI really the biggest problem? How the energy footprint of AI compares with other industries and everyday activities.',
+    liveUrl: 'https://aussiedatagal.github.io/energy/',
+    repoUrl: 'https://github.com/aussiedatagal/energy',
+    previewImage: '/assets/previews/energy-preview.png',
+    previewTitle: 'Is AI really the biggest problem?'
   },
   {
     id: 'tourle',
