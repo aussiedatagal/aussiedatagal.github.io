@@ -1,0 +1,90 @@
+{
+  "order": [
+    "nsw-food-penalty-map",
+    "election-funding",
+    "return-to-work-cost",
+    "energy",
+    "child-growth-calculator",
+    "nsw-rent-vs-mortgage",
+    "childcare-quality-ratings",
+    "nsw-housing-affordability",
+    "nsw-rent-bond-refunds",
+    "trillion",
+    "invest-vs-offset",
+    "breastfeeding-issues-flowchart",
+    "tourle",
+    "brick"
+  ],
+  "overrides": {
+    "nsw-food-penalty-map": {
+      "title": "NSW Food Penalty Notices",
+      "description": "Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.",
+      "previewTitle": "NSW Food Penalty Notices"
+    },
+    "election-funding": {
+      "title": "Follow the Money",
+      "description": "Who donates to Australian political parties? A network of declared donations from 2020 to 2025, from AEC disclosure data.",
+      "previewTitle": "Follow the money: Australian political donations"
+    },
+    "return-to-work-cost": {
+      "title": "Return to Work Cost (A Childcare Subsidy Calculator)",
+      "description": "Sydney parents earn less money working full time than part time when you account for childcare costs",
+      "previewTitle": "The Real Cost of Returning to Work - Child Care Subsidy Calculator"
+    },
+    "energy": {
+      "title": "Energy in Perspective",
+      "description": "Is AI really the biggest problem? How the energy footprint of AI compares with other industries and everyday activities.",
+      "previewTitle": "Is AI really the biggest problem?"
+    },
+    "child-growth-calculator": {
+      "title": "Child Growth Calculator",
+      "description": "Calculate and track child growth percentiles based on WHO growth standards.",
+      "previewTitle": "Growth Chart Calculator - WHO & CDC Child Growth Standards Tool"
+    },
+    "nsw-rent-vs-mortgage": {
+      "title": "NSW Rent vs Mortgage",
+      "description": "Comparison of rental costs versus mortgage payments across NSW postcodes.",
+      "previewTitle": "Paying off your landlord's house (NSW)"
+    },
+    "childcare-quality-ratings": {
+      "title": "Childcare Quality Ratings",
+      "description": "Explore quality standards ratings for childcare services across Australia using data from ACECQA.",
+      "previewTitle": "Childcare Quality Rating Map"
+    },
+    "nsw-housing-affordability": {
+      "title": "NSW Housing Affordability",
+      "description": "Analysis of housing affordability trends and patterns across NSW.",
+      "previewTitle": "NSW Housing Affordability Map"
+    },
+    "nsw-rent-bond-refunds": {
+      "title": "NSW Rental Bond Outcomes",
+      "description": "Interactive map showing postcode-level rental bond refund outcomes for 2024. Explore where tenants are more or less likely to have bond withheld.",
+      "previewTitle": "NSW Rental Bond Refunds — 2024"
+    },
+    "trillion": {
+      "title": "1 Trillion",
+      "description": "How much is a trillion dollars really? A scrolling look at what it could pay for.",
+      "previewTitle": "How much is 1 trillion dollars?"
+    },
+    "invest-vs-offset": {
+      "title": "Invest vs Offset",
+      "description": "Should spare cash go into shares or your mortgage offset account? Model your net worth over time with your own mortgage, tax and contribution assumptions.",
+      "previewTitle": "Invest vs Offset Calculator"
+    },
+    "breastfeeding-issues-flowchart": {
+      "title": "Breastfeeding Difficulty Screening",
+      "description": "A few yes/no questions about what is going on with breastfeeding. Your answers build a summary to take to your midwife, doctor or lactation consultant.",
+      "previewTitle": "Breastfeeding Difficulty Screening"
+    },
+    "tourle": {
+      "title": "Tourle",
+      "description": "A daily traveling salesman puzzle game.",
+      "previewTitle": "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game"
+    },
+    "brick": {
+      "title": "Brick",
+      "description": "A daily LEGO set puzzle game where players guess the LEGO set based on a series of images.",
+      "previewTitle": "Brick - Daily Lego Set Puzzle Game"
+    }
+  }
+}
