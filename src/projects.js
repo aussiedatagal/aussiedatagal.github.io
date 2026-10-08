@@ -81,6 +81,15 @@ export const projects = [
     previewTitle: 'NSW Rental Bond Refunds — 2024'
   },
   {
+    id: 'election-funding',
+    title: 'Follow the Money',
+    description: 'Who donates to Australian political parties? A network of declared donations from 2020 to 2025, from AEC disclosure data.',
+    liveUrl: 'https://aussiedatagal.github.io/election-funding/',
+    repoUrl: 'https://github.com/aussiedatagal/election-funding',
+    previewImage: '/assets/previews/election-funding-preview.png',
+    previewTitle: 'Follow the money: Australian political donations'
+  },
+  {
     id: 'energy',
     title: 'Energy in Perspective',
     description: 'Is AI really the biggest problem? How the energy footprint of AI compares with other industries and everyday activities.',
@@ -88,6 +97,15 @@ export const projects = [
     repoUrl: 'https://github.com/aussiedatagal/energy',
     previewImage: '/assets/previews/energy-preview.png',
     previewTitle: 'Is AI really the biggest problem?'
+  },
+  {
+    id: 'trillion',
+    title: '1 Trillion',
+    description: 'How much is a trillion dollars really? A scrolling look at what it could pay for.',
+    liveUrl: 'https://aussiedatagal.github.io/trillion/',
+    repoUrl: 'https://github.com/aussiedatagal/trillion',
+    previewImage: '/assets/previews/trillion-preview.png',
+    previewTitle: 'How much is 1 trillion dollars?'
   },
   {
     id: 'tourle',
