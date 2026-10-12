@@ -12,7 +12,6 @@
     "trillion",
     "invest-vs-offset",
     "breastfeeding-issues-flowchart",
-    "tourle",
     "brick"
   ],
   "overrides": {
@@ -75,11 +74,6 @@
       "title": "Breastfeeding Difficulty Screening",
       "description": "A few yes/no questions about what is going on with breastfeeding. Your answers build a summary to take to your midwife, doctor or lactation consultant.",
       "previewTitle": "Breastfeeding Difficulty Screening"
-    },
-    "tourle": {
-      "title": "Tourle",
-      "description": "A daily traveling salesman puzzle game.",
-      "previewTitle": "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game"
     },
     "brick": {
       "title": "Brick",

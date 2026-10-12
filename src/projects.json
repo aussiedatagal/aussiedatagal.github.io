@@ -108,15 +108,6 @@
     "previewTitle": "Breastfeeding Difficulty Screening"
   },
   {
-    "id": "tourle",
-    "title": "Tourle",
-    "description": "A daily traveling salesman puzzle game.",
-    "liveUrl": "https://aussiedatagal.github.io/tourle/",
-    "repoUrl": "https://github.com/aussiedatagal/tourle",
-    "previewImage": "/assets/previews/tourle-preview.png",
-    "previewTitle": "Santa's Sleigh Route - Daily Traveling Salesman Puzzle Game"
-  },
-  {
     "id": "brick",
     "title": "Brick",
     "description": "A daily LEGO set puzzle game where players guess the LEGO set based on a series of images.",
