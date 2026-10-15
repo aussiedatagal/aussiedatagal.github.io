@@ -4,7 +4,6 @@
     "title": "NSW Food Penalty Notices",
     "description": "Interactive map showing food businesses issued penalty notices for violating food safety standards. The NSW Food Authority publishes lists of businesses that have breached food safety laws to help consumers make informed decisions.",
     "liveUrl": "https://aussiedatagal.github.io/nsw-food-penalty-map/",
-    "repoUrl": "https://github.com/aussiedatagal/nsw-food-penalty-map",
     "previewImage": "/assets/previews/nsw-food-penalty-map-preview.png",
     "previewTitle": "NSW Food Penalty Notices"
   },

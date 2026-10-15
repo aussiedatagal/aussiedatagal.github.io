@@ -46,5 +46,10 @@ describe('ProjectCard', () => {
     expect(screen.getByText(anotherProject.description)).toBeInTheDocument();
     expect(screen.getByText('Source code')).toHaveAttribute('href', anotherProject.repoUrl);
   });
-});
 
+  test('leaves out the source link when there is no repo', () => {
+    const { repoUrl, ...noRepo } = mockProject;
+    render(<ProjectCard project={noRepo} />);
+    expect(screen.queryByText('Source code')).not.toBeInTheDocument();
+  });
+});

@@ -12,11 +12,13 @@ function ProjectCard({ project }) {
         previewTitle={project.previewTitle}
       />
       <p className="project-description">{project.description}</p>
-      <div className="project-links">
-        <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-          Source code
-        </a>
-      </div>
+      {project.repoUrl && (
+        <div className="project-links">
+          <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+            Source code
+          </a>
+        </div>
+      )}
     </article>
   );
 }
