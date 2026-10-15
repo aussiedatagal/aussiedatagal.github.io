@@ -32,7 +32,7 @@ function App() {
             Contact me
           </a>
           {' • '}
-          <a href="mailto:tkl9tlfno@mozmail.com">
+          <a href="mailto:aussiedatagal@proton.me">
             Email
           </a>
         </p>

@@ -4,7 +4,7 @@ A collection of side projects and experiments I've worked on in my spare time. M
 
 ## Contact
 
-You can reach me through [GitHub Issues](https://github.com/aussiedatagal/aussiedatagal.github.io/issues) or email at `tkl9tlfno@mozmail.com`.
+You can reach me through [GitHub Issues](https://github.com/aussiedatagal/aussiedatagal.github.io/issues) or email at `aussiedatagal@proton.me`.
 
 
 ## Adding a project

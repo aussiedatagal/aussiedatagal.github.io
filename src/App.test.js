@@ -36,7 +36,7 @@ describe('App', () => {
     
     const emailLink = screen.getByText('Email');
     expect(emailLink).toBeInTheDocument();
-    expect(emailLink.closest('a')).toHaveAttribute('href', 'mailto:tkl9tlfno@mozmail.com');
+    expect(emailLink.closest('a')).toHaveAttribute('href', 'mailto:aussiedatagal@proton.me');
   });
 
   test('renders EucalyptusPattern component', () => {
